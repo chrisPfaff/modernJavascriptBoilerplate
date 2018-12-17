@@ -1,0 +1,19 @@
+{
+  "name": "modernjavascriptboilerplate",
+  "version": "1.0.0",
+  "description": "react webpack babel boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisPfaff/modernJavascriptBoilerplate.git"
+  },
+  "author": "chris pfaff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisPfaff/modernJavascriptBoilerplate/issues"
+  },
+  "homepage": "https://github.com/chrisPfaff/modernJavascriptBoilerplate#readme"
+}
