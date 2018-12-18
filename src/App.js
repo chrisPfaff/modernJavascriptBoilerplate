@@ -1,9 +1,22 @@
-import React, { Component } from "react";
+import React from 'react'
+import { hot } from 'react-hot-loader'
 
-class App extends Component {
+class App extends React.Component {
   render() {
-    return <h1>Hello World</h1>;
+    return (
+      <div>
+        <h1>Hello World.</h1>
+        {/* <h2 className={count > 10 ? 'warning' : null}>Count: {count}</h2>
+        <button onClick={this.increment}>+</button>
+        <button onClick={this.decrement}>-</button>
+        {count > 10 ? (
+          <React.Suspense fallback={null}>
+            <Warning />
+          </React.Suspense>
+        ) : null} */}
+      </div>
+    )
   }
 }
 
-export default App;
+export default hot(module)(App)
